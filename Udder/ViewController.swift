@@ -14,7 +14,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    override func separateSecondaryViewController(for splitViewController: UISplitViewController) -> UIViewController? {
+        <#code#>
+    }
 
 }
 
