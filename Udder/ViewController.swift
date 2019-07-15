@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     override func separateSecondaryViewController(for splitViewController: UISplitViewController) -> UIViewController? {
         <#code#>
     }
+    override func viewDidDisappear(_ animated: Bool) {
+        
+    }
 
 }
 
